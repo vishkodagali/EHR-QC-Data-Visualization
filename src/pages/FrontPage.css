@@ -1,0 +1,146 @@
+/* FrontPage.css */
+
+/* Reset default browser styles */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center align content */
+.container {
+  text-align: center;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content section styles */
+.content {
+  padding: 50px 0;
+}
+
+/* File input styles */
+.file-input {
+  display: none; /* Hide the file input */
+}
+
+.file-label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px; /* Smaller padding for the "Choose File" button */
+  font-size: 14px; /* Smaller font size for the "Choose File" button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-label:hover {
+  background-color: #0056b3;
+}
+
+/* File name and remove button styles */
+.file-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.file-name {
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+/* Import button styles */
+.import-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px 30px; /* Larger padding for the "Import" button */
+  font-size: 18px; /* Larger font size for the "Import" button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.import-button:hover {
+  background-color: #218838;
+}
+
+/* Button container styles */
+.button-container {
+  margin-top: 20px; /* Space between paragraph and buttons */
+  display: flex;
+  justify-content: center;
+}
+
+/* Adjust spacing between buttons */
+.file-label,
+.import-button {
+  margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Acknowledgement section styles */
+.acknowledgement {
+  padding: 50px 0;
+}
+
+.acknowledgement h2 {
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.images img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
